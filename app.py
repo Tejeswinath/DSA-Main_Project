@@ -2,8 +2,8 @@ import streamlit as st
 import pickle
 import requests
 import pandas as pd
-data= pickle.load(open("data.pkl",'rb'))
-model=pickle.load(open("model.pkl",'rb'))
+data= pickle.load(open('data.pkl','rb'))
+model=pickle.load(open('model.pkl','rb'))
 
 st.title("Air Quality Forecasting")
 
