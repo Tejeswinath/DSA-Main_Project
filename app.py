@@ -2,8 +2,8 @@ import streamlit as st
 import pickle
 import requests
 import pandas as pd
-data=pickle.load(open(r"C:\Users\Tejes\Downloads\Air_quality_pred\data.pkl",'rb'))
-model=pickle.load(open(r"C:\Users\Tejes\Downloads\Air_quality_pred\model.pkl",'rb'))
+data=pickle.load(open(r"C:/Users/Tejes/Downloads/Air_quality_pred/data.pkl",'rb'))
+model=pickle.load(open(r"C:/Users/Tejes/Downloads/Air_quality_pred/model.pkl",'rb'))
 
 st.title("Air Quality Forecasting")
 
